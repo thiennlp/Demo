@@ -9,24 +9,24 @@
     -webkit-box-sizing:border-box;
 }
 #timkiem input::-webkit-input-placeholder {
-   color: #fefefe;
+    color: #fefefe;
 }
 
 #timkiem input:-moz-placeholder { /* Firefox 18- */
-   color: #fefefe;  
+    color: #fefefe;  
 }
 
 #timkiem input::-moz-placeholder {  /* Firefox 19+ */
-   color: #fefefe;  
+    color: #fefefe;  
 }
 
 #timkiem input:-ms-input-placeholder {  
-   color: #fefefe;  
+    color: #fefefe;  
 }
 a{ text-decoration: none;} 
 .margin_auto{
-	width:1200px;
-	margin:auto;
+    width:1200px;
+    margin:auto;
 }
 #logo{ 
     margin: 10px 0;
@@ -45,15 +45,16 @@ a{ text-decoration: none;}
 }
 #logo img{padding-top: 0; padding-left: 0;}
 #top{
-	width:100%;
-	float:left;
-	background: url(images/gocphai.png) no-repeat right top;
+    width:100%;
+    float:left;
+    background: url(images/gocphai.png) no-repeat right top;
 }
 #header{ 
     width: 100%;
     margin: 0 auto;
     z-index: 9;
-    background: rgba(1, 164, 55, 0.78);
+    /*background: rgba(1, 164, 55, 0.78);*/
+    /*background: #FFF;*/
     position: absolute;
 }
 .box_header{
@@ -193,7 +194,7 @@ a{ text-decoration: none;}
     font-size: 12px;
 }
 .form__submit__button{
-  border: 0px; background: #f36f21; padding: 5px 20px 5px 20px; color: #fff;
+    border: 0px; background: #f36f21; padding: 5px 20px 5px 20px; color: #fff;
 }
 .form__submit__button:hover{ background: #036289}
 .form__input__text {
@@ -452,11 +453,11 @@ ul{
     float:left;
 }
 .back_gr{
-	width:100%; float:left; background:rgba(255,255,255,1);	
+    width:100%; float:left; background:rgba(255,255,255,1);	
 }
 #right{
-	width:315px;
-	float:right;
+    width:315px;
+    float:right;
 }
 
 #left{
@@ -476,9 +477,9 @@ ul{
     margin-bottom: 20px;
 }
 .left{
-	width:100%;
-	float:left;
-	padding: 10px 0px 10px 0px;
+    width:100%;
+    float:left;
+    padding: 10px 0px 10px 0px;
     border: 1px solid #ccc;
 
 }
@@ -550,40 +551,40 @@ ul{
     padding-bottom:10px;
 }
 .menu_left ul{
-	list-style-type:none;
-	margin:0px;
-	padding:0px;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
 }
 .menu_left ul li{
-	width:100%;
-	float:left;
+    width:100%;
+    float:left;
 }
 .menu_left ul li:last-child{ border-bottom: 0px;}
 .menu_left ul a{
-	width:100%;
-	float:left;
-	padding:5px 0px 5px 25px;
-	background: url(images/muiten_detail.png) no-repeat 5px 10px;
-	text-decoration:none;
-	color:#333;
-	font-size: 12px;
+    width:100%;
+    float:left;
+    padding:5px 0px 5px 25px;
+    background: url(images/muiten_detail.png) no-repeat 5px 10px;
+    text-decoration:none;
+    color:#333;
+    font-size: 12px;
 }
 .menu_left li ul a{
-	width:100%;
-	float:left;
-	color:#666;
+    width:100%;
+    float:left;
+    color:#666;
 }
 .menu_left ul a:hover{
-	color:#05628D;
+    color:#05628D;
 }
 .menu_left li ul a{
-	padding-left:30px;
-	background:url(images/pagination.png) no-repeat 15px 12px;
+    padding-left:30px;
+    background:url(images/pagination.png) no-repeat 15px 12px;
 }
 
 .menu_left li ul li ul a{
-	padding-left:40px;
-	background:url(images/muiten_trong.png) no-repeat 30px 10px;
+    padding-left:40px;
+    background:url(images/muiten_trong.png) no-repeat 30px 10px;
 }
 .yahoo_top{ text-align: center; margin:10px 0px 10px 0px; }
 .yahoo{
@@ -662,43 +663,43 @@ ul.pagination a.current {
 /* ========== Content pagination ========== */
 
 .pagination {
-	margin: auto;
-	width: auto;
-	text-align: center;
-	margin-top: 10px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 10px;
 }
 .pages {
 }
 .pages li.prev {
-	margin-right: 15px;
+    margin-right: 15px;
 }
 .pages li.next {
-	margin-left: 15px;
+    margin-left: 15px;
 }
 .pages li {
-	display: inline-block;
-	margin: 5px 2px;
+    display: inline-block;
+    margin: 5px 2px;
 }
 .pages li a {
-	height: 25px;
-	padding: 4px 8px;
-	text-decoration: none;
-	color: #666666;
-	font-weight: bold;
-	background: url(../images/backgrounds/pagingBg.png) repeat-x 0 0;
-	border: 1px solid #d5d5d5;
-	font-size: 11px;
+    height: 25px;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+    background: url(../images/backgrounds/pagingBg.png) repeat-x 0 0;
+    border: 1px solid #d5d5d5;
+    font-size: 11px;
 }
 .pages li a:hover {
-	background: #f6f6f6;
+    background: #f6f6f6;
 }
 .pages li .active {
-	background: url(../images/backgrounds/sideGradient.png) repeat-x;
-	color: #fff;
-	border-color: #424852;
+    background: url(../images/backgrounds/sideGradient.png) repeat-x;
+    color: #fff;
+    border-color: #424852;
 }
 .pages li .active:hover {
-	background: #2a313d;
+    background: #2a313d;
 }
 .ngaydang{ font-style: italic;; color: #ccc;}
 .bando{ float:left; width: 100%;}
@@ -767,10 +768,10 @@ ul.pagination a.current {
     text-transform: uppercase;
 }
 .thongke ul{ list-style: none; margin: 0px; padding: 0px;
-    display: inline-block;
+             display: inline-block;
 }
 .thongke ul li{
-	float:right;
+    float:right;
     width: 100%;
     font-size: 13px;
     padding:0px 15px 0px 0;
@@ -778,13 +779,13 @@ ul.pagination a.current {
     color: #ffffff;
 }
 .online{
-	background:url(images/muiten.png) no-repeat 10px 12px;
-	color:#FFF;
+    background:url(images/muiten.png) no-repeat 10px 12px;
+    color:#FFF;
 }
 .online span{
-	width:80px;
-	float:left;
-	padding-left:20px;
+    width:80px;
+    float:left;
+    padding-left:20px;
 }
 .menu_danhmuc{ width: 100%; float: left; background: url(images/thanh_sp.jpg) repeat-x; height: 45px;}
 .menu_danhmuc li a{ float: left; height: 42px; line-height: 42px; padding: 0px 20px 0px 30px; text-transform: uppercase; color: #333; margin-top: 3px;}
@@ -802,42 +803,42 @@ ul.pagination a.current {
     line-height:30px;
 }
 .hotline{
-	float:left;
-	width:240px;
-	margin:0px 0px 0px 10px;
-	color:rgba(51,51,51,1);
-	font-weight:bold;
-	font-size:20px;
-	background: url(images/hotline_l.png) no-repeat 0px 5px;
-	padding: 0px 0px 0px 80px;
-	border-bottom: 1px solid #e6e6e6;
+    float:left;
+    width:240px;
+    margin:0px 0px 0px 10px;
+    color:rgba(51,51,51,1);
+    font-weight:bold;
+    font-size:20px;
+    background: url(images/hotline_l.png) no-repeat 0px 5px;
+    padding: 0px 0px 0px 80px;
+    border-bottom: 1px solid #e6e6e6;
 }
 .hotline h5{ font-weight:100; font-size:12px;}
 .hotline span{ color:rgba(255,0,0,1)}
 .thongtin{
-	width:100%;
-	float:left;
-	font-weight:bold;
-	padding: 20px 0px 22px 20px; 
-	font-size:14px;
-	background: url(images/bg_tt.jpg) repeat-x bottom;
+    width:100%;
+    float:left;
+    font-weight:bold;
+    padding: 20px 0px 22px 20px; 
+    font-size:14px;
+    background: url(images/bg_tt.jpg) repeat-x bottom;
 }
 .thongtin li{ display: inline-block;}
 .thongtin li a{ border-right: 1px solid #ccc; padding: 0px 10px 0px 10px; color: #323232; font-size: 12px;}
 .thongtin li a:hover{ color: #01517A}
 .tin_moi{
-	padding:0px 10px 0px 10px;
+    padding:0px 10px 0px 10px;
 }
 .tin_moi a{
-	text-decoration:none;
-	color:rgba(51,51,51,1);	
+    text-decoration:none;
+    color:rgba(51,51,51,1);	
 }
 .tin_moi img{
-	float:left;
-	border:1px solid rgba(204,204,204,1);
-	padding:2px;
-	margin-right:10px;
-	margin-top:10px;
+    float:left;
+    border:1px solid rgba(204,204,204,1);
+    padding:2px;
+    margin-right:10px;
+    margin-top:10px;
 }
 #content{ width: 100%; float: left; margin: 0px 0px 0px 0px; border-top: 0px;}
 #info{
@@ -845,8 +846,8 @@ ul.pagination a.current {
     float: right;
 }
 #sanpham{
-	width:100%;
-	float:left;
+    width:100%;
+    float:left;
 }
 #congtrinh{ background: #eeeeee; width: 100%; float: left; margin: 20px 0px 0px 0px;  }
 .khung_tt{ width: 100%; float: left; }
@@ -888,9 +889,9 @@ ul.pagination a.current {
 .hotro_tructuyen ul{ width: 320px; background: linear-gradient(#fd0000,#ca0000); float: left; border-radius: 10px; left: 20px; bottom: 10px; position: absolute; z-index: 10;}
 .khung_vd{width: 350px; float:right;}
 .khung{
-  width:100%;
-  float:left; 
-  position: relative;
+    width:100%;
+    float:left; 
+    position: relative;
 }
 .xemtiep{
     float:right;
@@ -1075,13 +1076,13 @@ ul.pagination a.current {
     color: #ffc041;
 }
 .box_dichvu:hover .dichvu_img{
- transition: all 0.5s;
- transform: scale(1.1);
- -moz-transform: scale(1.1);
- -ms-transform: scale(1.1);
- -o-transform: scale(1.1);
- -webkit-transform: scale(1.1);  
- opacity: 0.8;     
+    transition: all 0.5s;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);  
+    opacity: 0.8;     
 }
 .box_dichvu .dichvu_img{
     width: 88px;
@@ -1381,12 +1382,12 @@ ul.pagination a.current {
 
 .item2 .product_img img:hover{
     width: 100%;
-/*    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: all 1s;   */ 
+    /*    -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: all 1s;   */ 
 }
 .item2 .product_img:hover .pro_hover{transform: scale(1);}
 .item2 .giaban{
@@ -1522,29 +1523,29 @@ ul.pagination a.current {
 .xemthem{ float: right; margin:10px 10px 0px 0px; font-size: 18px; color: #595959}
 .xemthem:hover{ color: #035381}
 .chitiet{
-	float:right;
-	border-radius:5px;
-	text-align:center;
-	height:22px;
+    float:right;
+    border-radius:5px;
+    text-align:center;
+    height:22px;
     color: #fe8152;
     text-decoration: underline;
     line-height:22px;
 }
 .chitiet:hover{
-	color:#03758D;
+    color:#03758D;
 }
 .dathang{
-	width:80px;
-	float:left;
-	height:25px;
-	border-radius:5px;
-	background:#39a01f;
-	text-align:center;
-	margin-left:40px;
-	line-height:25px;
-	font-weight:bold;
-	color:#fff;
-	cursor:pointer;
+    width:80px;
+    float:left;
+    height:25px;
+    border-radius:5px;
+    background:#39a01f;
+    text-align:center;
+    margin-left:40px;
+    line-height:25px;
+    font-weight:bold;
+    color:#fff;
+    cursor:pointer;
 }
 .cls{
     width:100%;
@@ -1561,8 +1562,8 @@ ul.pagination a.current {
     list-style-type:none !important;
 }
 #footer{
-	width:100%;
-	float:left;
+    width:100%;
+    float:left;
 }
 .dangky_tin{ margin:10px 0px 10px 30px; float: left; width: 250px; color: #fff; }
 .dangky_tin h4{ text-transform:uppercase; font-weight: bold; width: 100%; float: left; border-bottom: 1px solid #fff; margin-bottom: 10px; color: #fff;}
@@ -1608,7 +1609,7 @@ ul.pagination a.current {
 #copy{ width: 100%; float: left; background:url(images/copy.png) repeat-x; height: 49px; text-align: center; padding: 5px 0px 5px 0px;}
 
 #bottom{
-	margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background-color:#076f00;
     position: relative;
@@ -1772,14 +1773,14 @@ ul.pagination a.current {
 }
 .congty{ position:relative; color:rgba(255,255,255,1); text-align:center; margin-top:10px; text-transform:uppercase; width:100%; float:left;}
 .menu_bt a{
-	text-decoration:none;
-	color:rgba(255,255,255,1);
-	font-size:14px;
-	padding:0px 25px 0px 25px;
-	text-transform:uppercase;
+    text-decoration:none;
+    color:rgba(255,255,255,1);
+    font-size:14px;
+    padding:0px 25px 0px 25px;
+    text-transform:uppercase;
 }
 .menu_bt a:hover{
-	color:rgba(255,255,0,1);
+    color:rgba(255,255,0,1);
 }
 .bottom{
     padding: 30px 0px 0px 0px;
@@ -1791,10 +1792,10 @@ ul.pagination a.current {
 .video_clip{ width: 310px; float: right; margin-right: 10px;}
 .logo_bt{ float: left; margin:0px 0px 0px 0px;}
 .khung_bt{
-	width:100%;
-	float:left;
-	padding: 0px 0px 20px 0px;
-	margin: 0px 0px 20px 0px;
+    width:100%;
+    float:left;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
 .hethong{float: left;width: 385px;}
 .hethong ul{width: 100%;}
@@ -1858,18 +1859,18 @@ ul.pagination a.current {
 
 
 .dong_p{
-	width:190px;
-	float:left;
-	margin-top:10px;	
+    width:190px;
+    float:left;
+    margin-top:10px;	
 }
 .map{ float: right; margin: 20px 0px 0px 0px;}
 .map h4{ color: #fff; text-align: right; text-transform:uppercase; font-style: italic;}
 .map img:hover{ box-shadow: 0px 0px 10px #ccc;}
 #doitac{ width: 100%; margin:0px 0px 0px 0px; float: left; background: #f2f2f2; border-bottom: 1px solid #000; border-top: 1px solid #cdcdcd; }
 .doitac{
-	width: 400px;
-	float:right;
-	margin:10px 0px 10px 20px;
+    width: 400px;
+    float:right;
+    margin:10px 0px 10px 20px;
 }
 .doitac img:hover{ box-shadow: 0px 0px 3px #ccc; border-radius: 5px;}
 .doitac img{ width: 80px; height: 60px; float: left; margin:5px 0px 0px 10px; transition: 0.3s;}
@@ -1976,25 +1977,25 @@ ul.pagination a.current {
 }
 .hotro_top h2{float:left;color:#fff; font-size: 19px; font-weight: 100;}
 .tienich{
-	width:214px;
-	float:left;
-	background:url(images/tienich.png) no-repeat 15px 15px;
-	height:140px;
+    width:214px;
+    float:left;
+    background:url(images/tienich.png) no-repeat 15px 15px;
+    height:140px;
 }
 .soluong{
-	padding:10px 0px 0px 10px;
-	font-weight:bold;
+    padding:10px 0px 0px 10px;
+    font-weight:bold;
 }
 .soluong span{
-	width:110px;
-	float:right;
-	color:#F90
+    width:110px;
+    float:right;
+    color:#F90
 }
 
 div#container_product{
-	margin-top:10px;
-	width:100%;
-	float:left;
+    margin-top:10px;
+    width:100%;
+    float:left;
 }
 div#container_product #tabs {
     border: 1px solid #fff;
@@ -2027,11 +2028,11 @@ div#container_product #tabs li a {
     margin-top: 20px;
 }
 .noidung_ta{
-	width:100%;
-	float:left;
-	padding:10px;
-	clear:left;
-	border: 3px solid #e4e4e4;
+    width:100%;
+    float:left;
+    padding:10px;
+    clear:left;
+    border: 3px solid #e4e4e4;
 }
 .clear {
     clear: both;
@@ -2151,8 +2152,8 @@ div#container_product #tabs li a {
     float: left;
 }
 .form_lh fieldset{
-	padding: 10px;
-	margin: 20px 0px 0px 0px;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
 }
 .form_lh legend{ padding:0px 10px 0px 10px;  font-style: italic; color: #023B70}
 .form_lh p{ padding: 5px 0px 5px 0px;}
@@ -2179,19 +2180,19 @@ div#container_product #tabs li a {
     font-size: 14px;
 }
 .form_lh1 p input::-webkit-input-placeholder {
-   color: #fff;
+    color: #fff;
 }
 
 .form_lh1 p input:-moz-placeholder { /* Firefox 18- */
-   color: #fff;  
+    color: #fff;  
 }
 
 .form_lh1 p input::-moz-placeholder {  /* Firefox 19+ */
-   color: #fff;  
+    color: #fff;  
 }
 
 .form_lh1 p input:-ms-input-placeholder {  
-   color: #fff;  
+    color: #fff;  
 }
 .form_lh1 p label{ width: 100px; float: left;}
 .form_lh1 p textarea{
@@ -2243,7 +2244,7 @@ div#container_product #tabs li a {
 .phuongthuc h4{ padding: 5px 10px 5px 10px; background: #F2F2F2 ; text-transform: uppercase; color: #555; margin-bottom: 10px;}
 .dongy { padding: 10px; width: 100%; float: left; font-weight: bold;}
 .back_fix{
-	height: 375px;
+    height: 375px;
     width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -2251,16 +2252,16 @@ div#container_product #tabs li a {
     margin-top: 20px;
 }
 .back_fix1{
-	background-image: url("images/photo_divider1.jpg");
+    background-image: url("images/photo_divider1.jpg");
 }
 .back_fix2{
-	background-image: url("images/photo_divider2.jpg");
+    background-image: url("images/photo_divider2.jpg");
 }
 .back_fix3{
-	background-image: url("images/photo_divider3.jpg");
+    background-image: url("images/photo_divider3.jpg");
 }
 .back_fix4{
-	background-image: url("images/photo_divider4.jpg");
+    background-image: url("images/photo_divider4.jpg");
 }
 
 .menu_hinhanh{ width: 100%; float: left; height: 40px; background: url(images/menu.png) repeat-x; text-align: center; margin-top: 30px;}
@@ -2452,13 +2453,13 @@ div#container_product #tabs li a {
     clear: both; margin-bottom:10px; color: #000;
 }
 .pagination a{ color: #000;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 2px;
-  padding-top: 2px;
-  margin-right: 5px;
-  text-decoration: none;
-  font-size: 13px;
+               padding-left: 5px;
+               padding-right: 5px;
+               padding-bottom: 2px;
+               padding-top: 2px;
+               margin-right: 5px;
+               text-decoration: none;
+               font-size: 13px;
 }
 div.pagination ul li a{
     color: #0d7963;
@@ -2469,7 +2470,7 @@ div.pagination ul li a{
 }
 .pagination a:active {color:#FFF; background-color:#F00;  background: #128e02;}
 .pagination a:hover{ color: #FFF;    cursor: pointer;
-  background-color: #128e02;
+                     background-color: #128e02;
 } 
 .pagination ul{
     list-style: none;
@@ -2482,10 +2483,10 @@ div.pagination ul li a{
 /*tap*/
 
 #tabs {
-  width: 100%;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 #tabs li {

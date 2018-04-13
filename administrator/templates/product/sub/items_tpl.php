@@ -95,7 +95,7 @@
     $stmt=mysql_query($sql);
     $str='
       <select id="id_item" name="id_item" onchange="select_item()" class="main_select">
-      <option value="">Chọn danh mục 2</option>';
+      <option value="">Chọn danh mục 3</option>';
     while ($row=@mysql_fetch_array($stmt)) 
     {
       if($row["id"]==(int)@$_REQUEST["id_item"])

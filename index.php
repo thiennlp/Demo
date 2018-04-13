@@ -16,12 +16,12 @@ include_once _lib . "functions.php";
 include_once _lib . "functions_share.php";
 include_once _lib . "class.database.php";
 include_once _source . "lang_$lang.php";
-//include_once _lib."functions_giohang.php";
+include_once _lib . "functions_giohang.php";
 include_once _lib . "file_requick.php";
 include_once _lib . "counter.php";
 
 if ($_REQUEST['command'] == 'add' && $_REQUEST['productid'] > 0) {
-    $pid = $_REQUEST['productid'];
+    $pid     = $_REQUEST['productid'];
     $soluong = 1;
     addtocart($pid, $soluong);
     redirect("thanh-toan.html");
@@ -40,24 +40,9 @@ if ($_GET['lang'] != '') {
         <base href="http://<?= $config_url ?>/">
         <link id="favicon" rel="shortcut icon" href="<?= _upload_hinhanh_l . $favicon['thumb_' . $lang] ?>" type="image/x-icon" />
 
-        <title><?php
-            if ($title_bar != '')
-                echo $title_bar;
-            else
-                echo $row_setting['title'];
-            ?></title>
-        <meta name="description" content="<?php
-        if ($description_bar != '')
-            echo $description_bar;
-        else
-            echo $row_setting['description'];
-        ?>">
-        <meta name="keywords" content="<?php
-        if ($keywords_bar != '')
-            echo $keywords_bar;
-        else
-            echo $row_setting['keywords'];
-        ?>">
+        <title><?php echo $title_bar != '' ? $title_bar : $row_setting['title']; ?></title>
+        <meta name="description" content="<?php echo $description_bar != '' ? $description_bar : $row_setting['description']; ?>">
+        <meta name="keywords" content="<?php echo $keywords_bar != '' ? $keywords_bar : $row_setting['keywords']; ?>">
         <meta name="robots" content="noodp,index,follow" />
         <meta name="google" content="notranslate" />
         <meta name='revisit-after' content='1 days' />
@@ -117,7 +102,7 @@ if ($_GET['lang'] != '') {
                 mainmenuid: "smoothmenu1", //menu DIV id
                 orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
                 classname: 'ddsmoothmenu', //class added to menu's outer DIV
-                //customtheme: ["#1c5a80", "#18374a"],
+//                customtheme: ["#1c5a80", "#18374a"],
                 contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
             })
         </script>
@@ -138,7 +123,7 @@ if ($_GET['lang'] != '') {
     <body >
         <?= $row_setting['analytics'] ?> 
         <div id="container">
-            
+
             <!--HEADER-->
             <header id="header">
                 <?php include _template . "layout/header.php"; ?>
@@ -146,12 +131,12 @@ if ($_GET['lang'] != '') {
             <!--/HEADER-->
 
             <div class="clear"></div>
-            
+
             <!--SLIDE-->
-            <div id="slide_show">
-                <?php include _template . "layout/quake_slider.php"; ?>
+<!--            <div id="slide_show">
+                <?php // include _template . "layout/quake_slider.php"; ?>
                 <div class="clear"></div>
-            </div>
+            </div>-->
             <!--/SLIDE-->
 
             <!--MAIN-->
@@ -172,9 +157,7 @@ if ($_GET['lang'] != '') {
                 </div>
             </main>
             <!--/MAIN-->
-
             <div class="clear"></div>
-
             <!--CENTER-->
             <?php if ($_GET['com'] == '' || $_GET['com'] == 'index' || $_GET['com'] == 'trang-chu') { ?>
                 <?php include _template . "layout/sp_noibat.php"; ?>
@@ -182,7 +165,6 @@ if ($_GET['lang'] != '') {
                 <?php include _template . "layout/bottom.php"; ?>     
             <?php } ?>
             <!--/CENTER-->
-            
             <!--FOOTER-->
             <footer id="footer">
                 <?php include _template . "layout/footer.php"; ?>
